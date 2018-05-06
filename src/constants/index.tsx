@@ -1,0 +1,6 @@
+export const INC_ENTHUSIASM = 'INC_ENTHUSIASM'
+export type INC_ENTHUSIASM = typeof INC_ENTHUSIASM
+
+export const DEC_ENTHUSIASM = 'DEC_ENTHUSIASM'
+export type DEC_ENTHUSIASM = typeof DEC_ENTHUSIASM
+
