@@ -4,21 +4,13 @@ export interface BaseAction {
     type: string
 }
 
-export interface IncEnthusiasm extends BaseAction {
-    type: constants.INC_ENTHUSIASM
-}
-
-export interface DecEnthusiasm extends BaseAction {
-    type: constants.DEC_ENTHUSIASM
-}
-
-export function incEnthusiasm(): IncEnthusiasm {
+export function incEnthusiasm(): BaseAction {
     return {
         type: constants.INC_ENTHUSIASM
     }
 }
 
-export function decEnthusiasm(): DecEnthusiasm {
+export function decEnthusiasm(): BaseAction {
     return {
         type: constants.DEC_ENTHUSIASM
     }
